@@ -24,5 +24,5 @@ PRODUCT_COPY_FILES += \
     vendor/kscope/target/config/permissions/privapp-permissions-davincicode-system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-davincicode-system_ext.xml
 
 # Ad-block hosts
-PRODUCT_COPY_FILES += \
-    vendor/kscope/target/config/hosts.aicp_adblock:system/etc/hosts.aicp_adblock
+PRODUCT_PACKAGES += \
+    hosts.kscope_adblock
