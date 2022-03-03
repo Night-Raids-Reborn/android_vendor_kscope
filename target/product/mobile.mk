@@ -19,3 +19,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     messaging \
     Stk
+# Custom Settings Permissions
+PRODUCT_COPY_FILES += \
+    vendor/kscope/target/config/permissions/privapp-permissions-davincicode-system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-davincicode-system_ext.xml
