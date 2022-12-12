@@ -25,4 +25,4 @@ PRODUCT_COPY_FILES += \
 
 # Ad-block hosts
 PRODUCT_PACKAGES += \
-    hosts.kscope_adblock
+    hosts.aicp_adblock
