@@ -26,3 +26,8 @@ PRODUCT_COPY_FILES += \
 # Ad-block hosts
 PRODUCT_PACKAGES += \
     hosts.aicp_adblock
+
+# Include Lawnchair
+ifeq ($(USE_LAWNCHAIR), true)
+$(call inherit-product, vendor/lawnchair/lawnchair.mk)
+endif
